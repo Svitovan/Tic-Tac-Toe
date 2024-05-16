@@ -1,0 +1,26 @@
+#ttt {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ttt > div {
+    width: 100px;
+    height: 100px;
+    background: rgb(85, 211, 243);
+    cursor: pointer;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ttt > div:nth-child(2n){
+    background: rgb(131, 171, 173);
+}
+#ttt > div:hover {
+    filter: brightness(1.1);
+}
